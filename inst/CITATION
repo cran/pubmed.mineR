@@ -1,0 +1,5 @@
+citHeader("To cite pubmed.mineR package in publications use:") 
+
+citEntry(entry="Manual", author=personList(as.person("Jyoti Sharma"), as.person("S.Ramachandran"), as.person("Ab. Rauf Shah")), title="An R package for text mining of PubMed abstracts.", year = 2014, note = "R package version 1.0", textVersion = paste("Jyoti Sharma, S.Ramachandan and Ab. Rauf Shah (2014).", "Text mining of PubMed abstracts.", "R package version 1.0."))
+
+citFooter("Find it with 'help(package=pubmed.mineR)'")
