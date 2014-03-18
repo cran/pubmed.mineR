@@ -10,7 +10,7 @@ SentenceToken(x)
 }
 \details{ This function is necessary for extracting sentences from abstracts,  used by contextSearch function. The tokenization principle follows the overall strategy as described in \code{contextSearch}}
 \value{ A character vector of sentences }
-\author{ Dr.S.Ramachandran }
+\author{ S.Ramachandran }
 \examples{
 \dontrun{SentenceToken(x)}
 }

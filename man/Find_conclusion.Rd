@@ -19,7 +19,7 @@ An S4 object of class 'Abstract'.
 A list containing conclusion of given abstract(s)
 }
 \author{
-S.Ramachandran.
+S.Ramachandran, Jyoti Sharma
 }
 \examples{
 \dontrun{res1 = Find_conclusion(y)}

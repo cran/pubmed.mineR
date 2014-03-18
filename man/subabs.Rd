@@ -12,7 +12,7 @@ subabs(object, start, end)
 }
 \details{From a large number of asbtracts wish to extract a subset of abstracts into a separate object.}
 \value{An R object of class 'Abstracts' containing the extracted abstracts meeting a given range.}
-\author{Dr.S.Ramachandran}
+\author{Jyoti Sharma, S.Ramachandran}
 \examples{
 \dontrun{subabs(x,1,5)}
 ## Here 'x' is an S4 object of class 'Abstracts', 

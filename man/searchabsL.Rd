@@ -14,7 +14,7 @@ searchabsL(object, yr, include, restrict, exclude)
 }
 \details{In the arguments except for the object all other arguments have "NONE" as default. To export or write the result of searchabsL() we use sendabs() function.}
 \value{An object of class Abstracts satisfying the term combinations, In addition a text file named "out.txt" reporting the number of abstracts for given query term combinations.}
-\author{Dr.S.Ramachandran}
+\author{S.Ramachandran}
 \seealso{\code{\link{searchabsT}}}
 \examples{
 \dontrun{searchabsL(x, include="term")

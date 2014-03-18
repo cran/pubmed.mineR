@@ -9,7 +9,7 @@ xmlword_atomizations(m)
   \item{m}{an S4 object of class Abstracts resulted from xmlreadabs.}
 }
 \value{a list containing words from the text with their frequencies.}
-\author{S Ramachandran}
+\author{S. Ramachandran}
 \note{\code{xmlword_atomizations} cannot work on output of readabs.}
 \seealso{\code{\link{xmlreadabs}}}
 \examples{\dontrun{test = xmlword_atomizations(xmlabs)}

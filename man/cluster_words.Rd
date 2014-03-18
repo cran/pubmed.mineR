@@ -10,7 +10,7 @@ cluster_words(wordscluster, n)
   \item{n}{a numeric vector containing cluster numbers}
 }
 \value{a list containing cluster and its highest frequency word}
-\author{S.Ramachandran}
+\author{S. Ramachandran}
 \seealso{\code{\link{wordscluster}}}
 \examples{
 \dontrun{test = cluster_words(wordscluster, 5)

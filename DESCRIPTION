@@ -1,21 +1,21 @@
 Package: pubmed.mineR
 Type: Package
 Title: Text mining of PubMed Abstracts.
-Version: 1.0
+Version: 1.0.1
 Date: 2014-03-11
 Author: Jyoti Sharma, S. Ramachandran, Ab Rauf Shah
 Maintainer: S. Ramachandran <ramu@igib.in>
 Description: An R package for text mining of PubMed Abstracts (http://www.ncbi.nlm.nih.gov/pubmed). The algorithms are designed for two formats (text and XML) from PubMed 
 Depends: R (>= 2.10), methods
-Imports: RCurl, XML, SSOAP, NCBI2R, DAVIDQuery, boot, R2HTML
-Suggests: lsa, apcluster
+Imports: RCurl, XML, SSOAP, NCBI2R, boot, R2HTML
+Suggests: apcluster
 Collate: 'Abstracts-class.R' 'HGNC-class.R' 'Yearwise.R' 'Genewise.R'
         'R2S4.R' 'combineabs.R' 'gene_atomization.R'
         'Find_conclusion.R' 'getabs.R' 'getabsT.R' 'gethgnc.R'
         'ready.R' 'readabs.R' 'removeabs.R' 'searchabsL.R'
         'searchabsT.R' 'sendabs.R' 'subabs.R' 'cleanabs.R'
         'word_atomizations.R' 'SentenceToken.R' 'contextSearch.R'
-        'uniprotfun.R' 'DAVID_info.R' 'Pathway_Link.R' 'Pathway_Info.R'
+        'uniprotfun.R' 'Pathway_Link.R' 'Pathway_Info.R'
         'tdm_for_lsa.R' 'printabs.R' 'cos_sim_calc.R'
         'cos_sim_calc_boot.R' 'wordscluster.R' 'whichcluster.R'
         'wordsclusterview.R' 'find_intro_conc_html.R' 'cluster_words.R'
@@ -25,7 +25,7 @@ Collate: 'Abstracts-class.R' 'HGNC-class.R' 'Yearwise.R' 'Genewise.R'
 License: GPL-3
 LazyLoad: yes
 LazyData: yes
-Packaged: 2012-09-30 22:01:43 UTC; rupa
+Packaged: 2012-10-06 20:27:25 UTC; rupa
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2014-03-13 08:07:13
+Date/Publication: 2014-03-18 09:25:51

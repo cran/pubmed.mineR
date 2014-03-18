@@ -7,7 +7,7 @@ ready()
 }
 \details{This function is neccessary to initiate the classes which are needed for the implementation of other functions. }
 \value{ classes}
-\author{Dr.S.Ramachandran}
+\author{S. Ramachandran}
 \examples{
 \dontrun{ready()}
 }

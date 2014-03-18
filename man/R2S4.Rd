@@ -10,7 +10,7 @@ R2S4(x)
 }
 \details{ This function is necessary for the conversion of a text file into S4 object of class 'Abstracts'. }
 \value{ An S4 object of class Abstracts }
-\author{ Dr.S.Ramachandran }
+\author{ S.Ramachandran, Jyoti Sharma }
 \examples{
 \dontrun{R2S4("filename.txt")}
 }

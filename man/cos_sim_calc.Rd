@@ -11,7 +11,7 @@ cos_sim_calc(nummatrix)
 }
 \details{The term document matrix is taken as input and cosine meausures of similarity between all pairs of terms are calculated.}
 \value{An R object and a tab delimited text file containing the similarity values between all pairs of terms.}
-\author{S.Ramachandran}
+\author{S. Ramachandran}
 \note{This file can be input to cytoscape directly.}
 \seealso{\code{\link{tdm_for_lsa}}}
 \examples{

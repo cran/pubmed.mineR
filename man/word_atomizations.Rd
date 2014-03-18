@@ -10,7 +10,7 @@ word_atomizations(m)
 }
 \details{word_atomizations() will break down the whole text into words after removing the extra white space, punctuation marks and very common english words.}
 \value{ A text file containing words with their frequencies}
-\author{S.Ramachandran}
+\author{S. Ramachandran, Jyoti Sharma}
 \examples{
 \dontrun{word_atomizations(x)}
 ## here x is the object containing abstracts.

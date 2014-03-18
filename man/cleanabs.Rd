@@ -11,7 +11,7 @@ cleanabs(object)
 \value{an S4 object of class Abstracts.}
 \author{Jyoti Sharma}
 \seealso{
-\code{\link{searchabsL}}, ~~~
+\code{\link{searchabsL}}
 }
 \examples{\dontrun{test1 = searchabsL(abs, include=c("term1", "term2"))
 test2 = cleanabs(test1)}

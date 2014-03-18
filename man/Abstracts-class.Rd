@@ -19,7 +19,7 @@ Objects can be created by calls of the form \code{new("Abstracts", ...)}.
 \section{Methods}{
 No methods defined with class "Abstracts" in the signature.
 }
-\author{ Dr.S.Ramachandran }
+\author{ Dr.S.Ramachandran, Ab Rauf Shah }
 \seealso{
 \code{\link{searchabsL} \link{getabs} \link{contextSearch} \link{Genewise} \link{Yearwise} \link{combineabs} \link{subabs} \link{readabs}} 
 }

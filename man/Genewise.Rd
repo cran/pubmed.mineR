@@ -11,7 +11,7 @@ Genewise(object, gene)
 }
 \details{This function will report the number of abstracts containing the query gene term(s) [HGNC approved symbols], and the result is saved in a text file "dataout.txt". Genewise() will report numbers of abstracts only. The abstracts themselves for corresponding gene names can be obtained using searchabsL() and searchabsT.}
 \value{Genewise will return an R object containing the abstracts for given gene, and a text file named "dataout.txt" containing the number of abstracts}
-\author{Dr.S.Ramachandran}
+\author{S. Ramachandran, Jyoti Sharma}
 \examples{
 \dontrun{Genewise(x, "TLR4")}
 ## here 'x' contains the S4 object of Abstracts.
