@@ -1,4 +1,4 @@
-import(methods, RCurl, XML, SSOAP, NCBI2R, boot, R2HTML)
+import(methods, RCurl, XML, SSOAP, NCBI2R, boot, R2HTML, utils)
 export(ready)
 exportClasses(Abstracts, HGNC)
 export(SentenceToken)

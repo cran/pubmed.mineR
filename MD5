@@ -1,5 +1,5 @@
-57da3ef7f5fa0dee5ec167d90d12049b *DESCRIPTION
-e372c5054055f0894ce79e3504396182 *NAMESPACE
+e88eb8dc731ce8aa6a90213d4300e383 *DESCRIPTION
+2c595f50e1f4ee82632f18bdd9733147 *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
 e2a93853ddd92ddfe94633518de6055e *R/Genewise.R
@@ -16,7 +16,7 @@ e88dd42f60ea8c8d41bcbd5012f43723 *R/contextSearch.R
 e597ac7c804a181508c13d429cf246ef *R/cos_sim_calc.R
 340c71516f4300bbb6aee5473d78681a *R/cos_sim_calc_boot.R
 32aaaefae3b54d46b23828f35698ea9f *R/find_intro_conc_html.R
-c9ad82f6c2466804d074cb2c64851199 *R/gene_atomization.R
+b1f5d6186cfd5a7b9dafdfd15d514c92 *R/gene_atomization.R
 f43a2c9979858a654a1ec70085a9b856 *R/get_original_term.R
 5ad6ec5b0bb5c5b4b1e2e4a6aa375cb1 *R/getabs.R
 8507f93bbf31ff9529a54dcaec0e415c *R/getabsT.R
@@ -31,14 +31,14 @@ b6cb479cfb0a3e2cd263625708990b25 *R/readabs.R
 e3676d92fbf2d79b5287ca13c500718a *R/sendabs.R
 81f40dd2539425105bd1ffc7354efcea *R/subabs.R
 9e9af9c26da10cbd146a0dd656ed755d *R/tdm_for_lsa.R
-d67153918b3f273b93ffa4ba8f2f7196 *R/uniprotfun.R
+afb9c68613fc5c50447234f786bfb2c8 *R/uniprotfun.R
 282c9aaca2b9747864ba88cbb0387c6d *R/whichcluster.R
-86d65d78a3b0e9254a577c9f16aa9a27 *R/word_atomizations.R
+1b6304d683248a4e471f48042b37faae *R/word_atomizations.R
 a46d47b7c30fa070feb84cf8c8234de8 *R/wordscluster.R
 f13ccb51ea86109a92a156784d4bbf69 *R/wordsclusterview.R
-cb054796f01bc20900a03ca57a8c201b *R/xmlgene_atomizations.R
+b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
 4be73f6bb45c242fa50dc2adb9e76703 *R/xmlreadabs.R
-bdf1068e4af6910103d6381ec49b18a1 *R/xmlword_atomizations.R
+b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
 7f0e29c27608ea11c746cf1550b2b68e *data/GeneToEntrez.rda
 83d5546726c75f7fe93b169d0501a7c2 *data/HGNC2UniprotID.rda
 cbbc77a824ddb130657b3b1a22068ca0 *data/HGNCdata.rda

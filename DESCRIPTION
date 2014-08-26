@@ -1,14 +1,15 @@
 Package: pubmed.mineR
 Type: Package
 Title: Text mining of PubMed Abstracts.
-Version: 1.0.1
-Date: 2014-03-11
-Author: Jyoti Sharma, S. Ramachandran, Ab Rauf Shah
+Version: 1.0.2
+Date: 2014-08-26
+Author: Jyoti Sharma, S.Ramachandran, Ab Rauf Shah
 Maintainer: S. Ramachandran <ramu@igib.in>
 Description: An R package for text mining of PubMed Abstracts (http://www.ncbi.nlm.nih.gov/pubmed). The algorithms are designed for two formats (text and XML) from PubMed 
 Depends: R (>= 2.10), methods
 Imports: RCurl, XML, SSOAP, NCBI2R, boot, R2HTML
 Suggests: apcluster
+Additional_repositories: http://www.omegahat.org/R
 Collate: 'Abstracts-class.R' 'HGNC-class.R' 'Yearwise.R' 'Genewise.R'
         'R2S4.R' 'combineabs.R' 'gene_atomization.R'
         'Find_conclusion.R' 'getabs.R' 'getabsT.R' 'gethgnc.R'
@@ -25,7 +26,7 @@ Collate: 'Abstracts-class.R' 'HGNC-class.R' 'Yearwise.R' 'Genewise.R'
 License: GPL-3
 LazyLoad: yes
 LazyData: yes
-Packaged: 2012-10-06 20:27:25 UTC; rupa
+Packaged: 2013-03-16 16:47:02 UTC; rupa
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2014-03-18 09:25:51
+Date/Publication: 2014-08-26 07:47:14

@@ -1,3 +1,4 @@
+if(getRversion() >= "2.15.0") utils::globalVariables(c("common_words_new", "HGNCdata"));
 xmlgene_atomizations = function (m) 
 {
     tempb = unlist(lapply(m@Abstract, function(x) {tempa = strsplit(x, ".", fixed = T); return(tempa)}))

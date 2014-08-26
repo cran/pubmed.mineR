@@ -1,3 +1,4 @@
+if(getRversion() >= "2.15.0") utils::globalVariables("common_words_new")
 xmlword_atomizations = function (m) 
 {
    

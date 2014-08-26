@@ -1,3 +1,4 @@
+if(getRversion() >= "2.15.0") utils::globalVariables("common_words_new");
 word_atomizations = function(m){tempzz = unlist(lapply(m@Abstract, function(x){tempa = strsplit(x, ".  ",fixed=T);tempa1 = which( nchar(tempa[[1]]) == max(nchar(tempa[[1]])));
 tempb = unlist(strsplit(tempa[[1]][tempa1], ".",fixed = T));
 tempc = unlist(strsplit(tempb, ",",fixed = T));

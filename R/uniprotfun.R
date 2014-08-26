@@ -1,3 +1,4 @@
+if(getRversion() >= "2.15.0") utils::globalVariables(c("HGNC2UniprotID", "HGNCdata"));
 uniprotfun = function(y){check11 = which(as.character(HGNCdata[,2]) == y);
 check11a = as.character(HGNCdata[check11,1]);
 check12 = which(as.character(HGNC2UniprotID[,1]) == check11a[1]);
