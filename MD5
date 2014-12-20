@@ -1,5 +1,5 @@
-e88eb8dc731ce8aa6a90213d4300e383 *DESCRIPTION
-2c595f50e1f4ee82632f18bdd9733147 *NAMESPACE
+4eb4e4877b2cc415b9d1774c99a9c2b9 *DESCRIPTION
+7b038e8b785b88b5529051d9a4f91228 *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
 e2a93853ddd92ddfe94633518de6055e *R/Genewise.R
@@ -23,6 +23,7 @@ f43a2c9979858a654a1ec70085a9b856 *R/get_original_term.R
 620f5c4302bd8bfc9f7fa2b63e57e7f9 *R/gethgnc.R
 f505ea34a04d3efa8f22666c945ecc77 *R/input_for_find_intro_conc_html.R
 58f421e3e936f4b2abfc25b39dd37cc9 *R/printabs.R
+625bc2b424844e2ac351729e6840b9b5 *R/pubtator_function.R
 b6cb479cfb0a3e2cd263625708990b25 *R/readabs.R
 207254f07651cc2f4c476fcdaef0e1af *R/ready.R
 839630dc23031d54852a955819db34b8 *R/removeabs.R
@@ -53,8 +54,8 @@ a323a2a1219f8b792e598d958d307555 *man/GeneToEntrez.Rd
 cb664f43b92ea525c4a03556398c2ee6 *man/HGNC-class.Rd
 b2710b47c15e20c1c312587b6bc67d9e *man/HGNC2UniprotID.Rd
 49aff5042d7e24ed6f077f78f140f720 *man/HGNCdata.Rd
-263dcb0c7390973745d83c8f907c97ee *man/Pathway_Info.Rd
-be053369e2ecbacb2536050b53187703 *man/Pathway_Link.Rd
+6bfa021091d593d8e0395c44c2f95349 *man/Pathway_Info.Rd
+5da9ac0c976a7b07c1c7dfc540e84943 *man/Pathway_Link.Rd
 297fcffad7e947ca801300a67443be74 *man/R2S4.Rd
 63a0a40cd27b0fc7a5a7af81493b4650 *man/SentenceToken.Rd
 5f6187321b63fecc680892db1c011f4a *man/Yearwise-methods.Rd
@@ -78,6 +79,7 @@ a65946e5ad82fe10bdd2d7fa82917fb7 *man/gene_atomization.Rd
 9766c5147c6215a69e77a84f7e79088e *man/getabsT.Rd
 c849451f3485df1e63f66cf54dea6013 *man/input_for_find_intro_conc_html.Rd
 07254c58e29c58faf74405d02aa847ad *man/printabs.Rd
+269a8d634056553aa90dd0b5fdde2b2d *man/pubtator_function.Rd
 c0e6b15ed9dbd2ab4f5b3f0f35086f80 *man/readabs.Rd
 8e56b0daa0b9b66a318ae4af39e67b70 *man/ready.Rd
 18fb19303bc0f2fad12d1737de1c560b *man/removeabs-methods.Rd

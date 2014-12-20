@@ -13,7 +13,7 @@ Pathway_Link(x)
 \note{Pathway_Link retrieves information from web so it need the package XML to parse. This function depends upon SSOAP package, and it retrieves information from Wikipathways.}
 \seealso{\code{\link{Pathway_Info}}}
 \examples{
-Pathway_Link("TLR4") 
+\dontrun{Pathway_Link("TLR4")} 
 ## list the links of the pathways in which the gene TLR4 is involved from Wikipathways.
 }
 \keyword{Function}

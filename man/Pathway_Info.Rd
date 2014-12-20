@@ -14,7 +14,7 @@ Pathway_Info(x)
 \note{Pathway_Info fetches information from world wide web so it needs the package XML for parsing.}
 \seealso{\code{\link{Pathway_Link}}}
 \examples{
-Pathway_Info("TLR4") 
+\dontrun{Pathway_Info("TLR4")} 
 ## will output the names of pathways of the given genes
 }
 \keyword{Function}
