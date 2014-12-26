@@ -1,11 +1,9 @@
-4eb4e4877b2cc415b9d1774c99a9c2b9 *DESCRIPTION
-7b038e8b785b88b5529051d9a4f91228 *NAMESPACE
+8d77eba6fa721a3fea789ec14029545e *DESCRIPTION
+a0d96362524e6c0b85c40173f62a2225 *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
 e2a93853ddd92ddfe94633518de6055e *R/Genewise.R
 3a1ff0232498995f1bb420b0f64e2b5f *R/HGNC-class.R
-a73ed90114a9b02f251440dfea3d5bb5 *R/Pathway_Info.R
-39ad7cd24f2cebd43314020c282f46df *R/Pathway_Link.R
 2d1c14cb656f8c0eeef32e1c3fe1452f *R/R2S4.R
 bcca74ed5d028ce7f6badc6c62dcf88d *R/SentenceToken.R
 f233d54a4034fcf7f430bcff27fbecbe *R/Yearwise.R
@@ -40,10 +38,10 @@ f13ccb51ea86109a92a156784d4bbf69 *R/wordsclusterview.R
 b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
 4be73f6bb45c242fa50dc2adb9e76703 *R/xmlreadabs.R
 b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
-7f0e29c27608ea11c746cf1550b2b68e *data/GeneToEntrez.rda
-83d5546726c75f7fe93b169d0501a7c2 *data/HGNC2UniprotID.rda
-cbbc77a824ddb130657b3b1a22068ca0 *data/HGNCdata.rda
-75fb250ae7558bff134624e161067eeb *data/common_words_new.rda
+6996514c45cdf88bec93a67ee1013e78 *data/GeneToEntrez.rda
+4ba74946dbe941e8af6bd2c27004b443 *data/HGNC2UniprotID.rda
+c482ff90bb60091e63ceeb14c9088b67 *data/HGNCdata.rda
+6274d559a3c1b11c95c3252aed96b487 *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
 9c99ed22c4e457cc26748f8bcebca2ba *inst/CITATION
 f69ea13a589d0947298901a758a79244 *man/Abstracts-class.Rd
@@ -54,8 +52,6 @@ a323a2a1219f8b792e598d958d307555 *man/GeneToEntrez.Rd
 cb664f43b92ea525c4a03556398c2ee6 *man/HGNC-class.Rd
 b2710b47c15e20c1c312587b6bc67d9e *man/HGNC2UniprotID.Rd
 49aff5042d7e24ed6f077f78f140f720 *man/HGNCdata.Rd
-6bfa021091d593d8e0395c44c2f95349 *man/Pathway_Info.Rd
-5da9ac0c976a7b07c1c7dfc540e84943 *man/Pathway_Link.Rd
 297fcffad7e947ca801300a67443be74 *man/R2S4.Rd
 63a0a40cd27b0fc7a5a7af81493b4650 *man/SentenceToken.Rd
 5f6187321b63fecc680892db1c011f4a *man/Yearwise-methods.Rd
