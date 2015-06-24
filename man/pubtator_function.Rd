@@ -28,7 +28,7 @@ Wei CH et. al., Accelerating literature curation with text-mining tools: a case 
 Wei CH et. al., PubTator: A PubMed-like interactive curation system for document triage and literature curation, in Proceedings of BioCreative 2012 workshop, Washington DC, USA, 145-150, 2012
 }
 \author{
-Dr S.Ramachandran
+S.Ramachandran, Jyoti Rani
 }
 \examples{
 \dontrun{test = pubtator_function(17922911)}

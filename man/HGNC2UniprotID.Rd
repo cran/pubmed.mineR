@@ -9,6 +9,10 @@
  chr "HGNC2UniprotID"
 }
 \details{ The dataset contains HGNC2UniprotID }
+\references{
+UniProt Consortium. "The universal protein resource (UniProt)." Nucleic acids research 36.suppl 1 (2008): D190-D195.
+http://www.uniprot.org/
+}
 \examples{
 data(HGNC2UniprotID)
 }

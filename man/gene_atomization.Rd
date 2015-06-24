@@ -10,7 +10,7 @@ gene_atomization(m)
 }
 \details{ The function writes a text file with file name "data_table.txt". The function gene_atomization() is used to obtain the name of genes along with their frequencies of occurence. }
 \value{ A tab delimited table containing gene name and their frequencies of occurence.}
-\author{ Dr.S.Ramachandran }
+\author{ S.Ramachandran, Jyoti Rani}
 \examples{
 \dontrun{gene_atomization(x)}
 ## here x is an S4 object of class 'Abstracts'containing the abstracts

@@ -9,6 +9,10 @@
  chr "HGNCdata"
 }
 \details{ The dataset contains HGNCdata }
+\references{
+Povey, Sue, et al. "The HUGO gene nomenclature committee (HGNC)." Human genetics 109.6 (2001): 678-680.
+http://www.genenames.org/
+}
 \examples{
 data(HGNCdata)
 }

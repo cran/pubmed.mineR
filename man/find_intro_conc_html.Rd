@@ -12,8 +12,8 @@ find_intro_conc_html(y, themes, all)
 }
 \details{\code{find_intro_conc_html}provide an HTML file containing space separated introduction and conclusion part from the abstracts of given query term as well as gives a link direct to PubMed for resulted PMID.}
 \value{an HTML file.}
-\author{S.Ramachandran, Jyoti Sharma}
-\seealso{\code{\link{input_for_find_intro_conc_html}}, ~~~
+\author{S.Ramachandran, Jyoti Rani}
+\seealso{\code{\link{input_for_find_intro_conc_html}}
 }
 \examples{\dontrun{test = find_intro_conc_html(abs, "diet")}
 ## here 'abs' is an S4 object of class Abstracts

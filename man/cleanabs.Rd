@@ -9,7 +9,7 @@ cleanabs(object)
   \item{object}{an S4 object of class Abstracts.}
 }
 \value{an S4 object of class Abstracts.}
-\author{Jyoti Sharma}
+\author{Jyoti Rani}
 \seealso{
 \code{\link{searchabsL}}
 }

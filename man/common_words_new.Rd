@@ -15,6 +15,9 @@ This dataset is used to remove common words from the abstracts. This step is use
 \details{
 The dataset containing common words used to remove them from the text for size reduction.
 }
+\references{
+https://en.wikipedia.org/wiki/Most_common_words_in_English
+}
 \examples{
 data(common_words_new)
 }

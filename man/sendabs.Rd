@@ -11,7 +11,7 @@ sendabs(object, x)
 }
 \details{A general writing function for object of class 'Abstracts'}
 \value{A tab delimited text file with headers Journal, Abstract, PMID.}
-\author{Dr.S.Ramachandran}
+\author{S.Ramachandran, Jyoti Rani}
 \examples{
 \dontrun{sendabs(x,"abs.txt")}
 ## here 'x' is the S4 object of class 'Abstracts' and 

@@ -20,7 +20,7 @@ Dr.S.Ramachandran
 \examples{
 \dontrun{test_boot = boot(data = t(nummatrix), statistic = cos_sim_calc_boot, R = 2)}
 ## here 'nummatrix' is a Term Document Matrix, boot inbuilt function of boot package, 
-## R is number of replicates here it is 2 user can extend this number.
+## R is number of replicates here it is 2. User can extend this number.
 }
 \keyword{Function}
 

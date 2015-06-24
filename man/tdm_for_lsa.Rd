@@ -13,7 +13,7 @@ tdm_for_lsa(object, y)
 a Term Document Matrix (Numerical matrix) containing the raw frequencies of given terms in each abstract.
 }
 \author{
-Jyoti Sharma
+Jyoti Rani
 }
 \examples{
 \dontrun{y = c("insulin", "inflammation", "obesity")

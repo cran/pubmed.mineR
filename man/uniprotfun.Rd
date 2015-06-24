@@ -10,7 +10,7 @@ uniprotfun(y)
 }
 \details{ This function retrieves data from the UniProt. At present uniprotfun() works with only HGNC approved gene symbols. }
 \value{ A text file written with filename as the 'query' name.}
-\author{ Dr.S.Ramachandran }
+\author{ S.Ramachandran }
 \examples{
 \dontrun{uniprotfun(x)}
 }

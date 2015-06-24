@@ -10,7 +10,7 @@ input_for_find_intro_conc_html(y, all)
 \details{it takes ans S4 object as input and uses its PMIDs to fetch the abstracts from E-utilities. The output will be used as inout for find_intro_conc_html as it contains neat data i.e. abstracts only.}
 \value{a list containing abstracts and PMID}
 \references{literature/http:/eutils.ncbi.nlm.nih.gov/}
-\author{S.Ramachandran, Jyoti Sharma}
+\author{S.Ramachandran, Jyoti Rani}
 \seealso{\code{\link{find_intro_conc_html}}}
 \examples{\dontrun{test=input_for_find_intro_conc_html(abs)}
 ## here 'abs' is an S4 object of class Abstracts.}

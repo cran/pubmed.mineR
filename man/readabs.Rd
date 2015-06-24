@@ -10,7 +10,7 @@ readabs(x)
 }
 \details{The saved file from a general pubmed search as text file is read via readabs().}
 \value{An S4 object of class "Abstracts", and a text file with tab delimited headers Journal, Abstract, PMID written with file name "newabs.txt".}
-\author{Dr.S.Ramachandran}
+\author{S.Ramachandran}
 \examples{
 \dontrun{readabs("pubmed_filename.txt")}
 ##here x is the text file of abstracts saved from PubMed.

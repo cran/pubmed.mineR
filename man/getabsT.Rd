@@ -12,7 +12,7 @@ getabsT(object, x, y)
 }
 \details{getabsT() is similar to getabs(), but it performs more specific search.}
 \value{An object of class 'Abstracts', containing the resulted abstracts for term.}
-\author{Dr.S.Ramachandran}
+\author{S.Ramachandran}
 \examples{
 \dontrun{getabsT(diabdata, "term")}
 }

@@ -17,7 +17,7 @@ a list object output from the function cluster_words
 a list object contatining the terms.
 }
 \author{
-S.Ramachandran
+S.Ramachandran, Jyoti Rani
 }
 \seealso{
 \code{\link{wordscluster}}

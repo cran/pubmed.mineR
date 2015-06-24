@@ -1,6 +1,5 @@
 \name{Find_conclusion}
 \alias{Find_conclusion}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 To find the conclusion from the abstract(s).
 }
@@ -19,7 +18,7 @@ An S4 object of class 'Abstract'.
 A list containing conclusion of given abstract(s)
 }
 \author{
-S.Ramachandran, Jyoti Sharma
+S.Ramachandran, Jyoti Rani
 }
 \examples{
 \dontrun{res1 = Find_conclusion(y)}
