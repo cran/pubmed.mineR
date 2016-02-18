@@ -4,9 +4,9 @@ pubtator_function = function (x)
         x, sep = ""))
     testa = unlist(strsplit(test, "\n", fixed = T))
     table1 = NULL
-    for (i in 3:length(testa)) {
+    for (i in 4:length(testa)) {
 	temps = unlist(strsplit(testa[i], "\t", fixed = T))
-	if(length(temps) == 5) {temps = c(temps,NA)}
+	if(length(temps) == 5) {temps = c(temps,"No Data")}
         table1 = rbind(table1, temps)
     }
     if (ncol(table1) == 6) {

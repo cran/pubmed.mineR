@@ -21,8 +21,8 @@ No methods defined with class "Abstracts" in the signature.
 }
 \author{ S.Ramachandran, Ab Rauf Shah }
 \seealso{
-\code{\link{searchabsL} \link{getabs} \link{contextSearch} \link{Genewise} \link{Yearwise} \link{combineabs} 
-\link{subabs} \link{subsetabs} \link{readabs}} 
+\code{\link{searchabsL} \link{getabs} \link{contextSearch} \link{Genewise} 
+\link{Yearwise} \link{combineabs} \link{subabs} \link{subsetabs} \link{readabs}} 
 }
 \examples{
 showClass("Abstracts")
