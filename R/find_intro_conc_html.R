@@ -29,11 +29,11 @@ find_intro_conc_html = function (y, themes, all)
         })
        
             if (all == FALSE){check6 = lapply(1:length(check1a), function(a) {
-            return(c(check2[[a]], paste("http://www.ncbi.nlm.nih.gov/pubmed/?term=", 
+            return(c(check2[[a]], paste("https://www.ncbi.nlm.nih.gov/pubmed/?term=", 
                 check1a[[a]], sep = "")))})}
 
               else if (all == TRUE){check6 = lapply(1:length(check1a), function(a) {
-            return(c(c(check1b[[a]],check1c[[a]],check2[[a]]), paste("http://www.ncbi.nlm.nih.gov/pubmed/?term=", 
+            return(c(c(check1b[[a]],check1c[[a]],check2[[a]]), paste("https://www.ncbi.nlm.nih.gov/pubmed/?term=", 
                 check1a[[a]], sep = "")))})}
 
         HTML.title(themes[i], file = target)

@@ -1,6 +1,6 @@
 pubtator_function = function (x) 
 {
-    test = getURL(paste("http://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/abstract_ann.cgi?Disease=1&Gene=1&Chemical=1&Mutation=1&Species=1&pmid=", 
+    test = getURL(paste("https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/abstract_ann.cgi?Disease=1&Gene=1&Chemical=1&Mutation=1&Species=1&pmid=", 
         x, sep = ""))
     testa = unlist(strsplit(test, "\n", fixed = T))
     table1 = NULL
