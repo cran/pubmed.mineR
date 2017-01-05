@@ -1,11 +1,11 @@
-92fbbd67d2d84af9e16d896fdc43a77f *DESCRIPTION
+5b8d896524838f7f36242739d349c9b9 *DESCRIPTION
 f60707cf1d2f85bcf63f41aa15447560 *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
 e2a93853ddd92ddfe94633518de6055e *R/Genewise.R
 9f1a670faec1be3b2d82b86d5204985f *R/Give_Sentences.R
-f5e95bd46a4d9a56e2881a686c528c01 *R/Give_Sentences_PMC.R
+ddb89305c712d11f64ab6e7430e58db7 *R/Give_Sentences_PMC.R
 3a1ff0232498995f1bb420b0f64e2b5f *R/HGNC-class.R
 0534c302bc63d4ea2aaffe663a4716c5 *R/SentenceToken.R
 f233d54a4034fcf7f430bcff27fbecbe *R/Yearwise.R
@@ -24,7 +24,7 @@ f312d1946e6a6f0a5e78eec23d18b90a *R/genes_BWI.R
 221e1d0f9d3fa68b6b4fb5b558a09101 *R/get_NMids.R
 dd119da84449ef7dcaf4167eb5b62251 *R/get_PMCIDS.R
 f5409ed02d2ce6a78b39b2dc76327294 *R/get_PMCtable.R
-e64b9c14364d8e6272c5e187312cd7cd *R/get_Sequences.R
+77d987a71262044df1fcf2b45fa5cca6 *R/get_Sequences.R
 2f7cb21bac807cb1fa2969403b220fef *R/get_gene_sentences.R
 f43a2c9979858a654a1ec70085a9b856 *R/get_original_term.R
 f7899ed42dface8ed898eb07e7ae6790 *R/get_original_term2.R
@@ -59,10 +59,10 @@ f13ccb51ea86109a92a156784d4bbf69 *R/wordsclusterview.R
 b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
 4be73f6bb45c242fa50dc2adb9e76703 *R/xmlreadabs.R
 b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
-70727915ee4e8fb84e626d394676b627 *data/GeneToEntrez.rda
-e69e434cfc91aa225d72ffdfa1da4a3d *data/HGNC2UniprotID.rda
-94ba342ab089aa00c2994902c1177eca *data/HGNCdata.rda
-6a0cb1457feb7812779114526ad0d65d *data/common_words_new.rda
+2f017ec1450321143b681383e3bf1b50 *data/GeneToEntrez.rda
+24b6cb6f5aff4c2dc345d50e6d196ba9 *data/HGNC2UniprotID.rda
+8cfe9956e67cd101478a164f2cc5c08d *data/HGNCdata.rda
+ba7f7d863dbdcc00b37e0c8ca9830409 *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
 00d39066be652ae7cee76673315839fc *inst/CITATION
 05c03dc4576a2ac7912957b84226e435 *man/Abstracts-class.Rd
