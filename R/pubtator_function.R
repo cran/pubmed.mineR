@@ -1,12 +1,14 @@
 pubtator_function = function (x) 
 {
-    test = getURL(paste("https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/abstract_ann.cgi?Disease=1&Gene=1&Chemical=1&Mutation=1&Species=1&pmid=", 
-        x, sep = ""))
+    test = getURL(paste("https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/RESTful/tmTool.cgi/BioConcept/", 
+        x,"/PubTator",sep = ""))
     testa = unlist(strsplit(test, "\n", fixed = T))
     table1 = NULL
-    for (i in 4:length(testa)) {
-	temps = unlist(strsplit(testa[i], "\t", fixed = T))
-	if(length(temps) == 5) {temps = c(temps,"No Data")}
+    for (i in 3:length(testa)) {
+        temps = unlist(strsplit(testa[i], "\t", fixed = T))
+        if (length(temps) == 5) {
+            temps = c(temps, "No Data")
+        }
         table1 = rbind(table1, temps)
     }
     if (ncol(table1) == 6) {
