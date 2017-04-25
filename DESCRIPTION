@@ -1,8 +1,8 @@
 Package: pubmed.mineR
 Type: Package
 Title: Text Mining of PubMed Abstracts
-Version: 1.0.8
-Date: 2017-02-08
+Version: 1.0.9
+Date: 2017-04-25
 Author: Jyoti Rani, S.Ramachandran, Ab Rauf Shah
 Maintainer: S. Ramachandran <ramuigib@gmail.com>
 Description: Text mining of PubMed Abstracts (text and XML) from <http://www.ncbi.nlm.nih.gov/pubmed>.
@@ -26,11 +26,11 @@ Collate: 'Abstracts-class.R' 'HGNC-class.R' 'Yearwise.R' 'Genewise.R'
         'get_PMCIDS.R' 'get_PMCtable.R' 'get_Sequences.R'
         'Give_Sentences_PMC.R' 'head_abbrev.R' 'names_fn.R'
         'official_fn.R' 'pmids_to_abstracts.R' 'get_gene_sentences.R'
-        'Give_Sentences.R'
+        'Give_Sentences.R' 'get_MedlinePlus.R'
 License: GPL-3
 LazyLoad: yes
 LazyData: yes
-Packaged: 2017-02-09 04:22:04 UTC; ramu
+Packaged: 2017-04-25 05:04:50 UTC; ramu
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2017-02-09 10:18:29
+Date/Publication: 2017-04-25 05:45:52 UTC

@@ -46,4 +46,5 @@ export(official_fn)
 export(pmids_to_abstracts)
 export(get_gene_sentences)
 export(Give_Sentences)
+export(get_MedlinePlus)
 
