@@ -1,4 +1,4 @@
-3fa93e9bba756085989abc60dcbb8610 *DESCRIPTION
+eef6eaeb244bf18d0e8257f19b3b68a5 *DESCRIPTION
 8b9c8082a430d3cc34ed48dc04b61c5e *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
@@ -96,7 +96,7 @@ c1a36df5acae1e5ab0e7cddf193bf8c5 *man/currentabs_fn.Rd
 21a6efd761604d39597b8c222c824d07 *man/find_intro_conc_html.Rd
 9724a9843e8826c5a2e9fc7ae39f5bdf *man/gene_atomization.Rd
 7f47862ede3260390f84dd9df1989130 *man/genes_BWI.Rd
-d50a031ace905b0b65ed6d1f62147f66 *man/get_MedlinePlus.Rd
+92ea11da921b9f13b1d0206f1f2f0ccb *man/get_MedlinePlus.Rd
 626bca10d7d24b359a8bbaa275e8e80d *man/get_NMids.Rd
 4eeda64f0c96f3a96c9ee9961c925f2a *man/get_PMCIDS.Rd
 f972cf6caf30330dd929f56e782f99ea *man/get_PMCtable.Rd

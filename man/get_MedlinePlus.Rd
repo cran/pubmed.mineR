@@ -24,5 +24,5 @@ www.medlineplus.gov, Conuel T. Finding answers in a beauty shop. NIH MedlinePlus
 S.Ramachandran
 }
 \examples{
-\dontrun{a = get_MedlinePlus('malaria', 'pneumonia', 'chronic diseases')}}
+\dontrun{a = get_MedlinePlus("malaria")}}
 \keyword{function}
