@@ -1,4 +1,4 @@
-eef6eaeb244bf18d0e8257f19b3b68a5 *DESCRIPTION
+7ea89a238ad8792466bfc210e14ad5e1 *DESCRIPTION
 8b9c8082a430d3cc34ed48dc04b61c5e *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
@@ -52,7 +52,7 @@ e3676d92fbf2d79b5287ca13c500718a *R/sendabs.R
 81f40dd2539425105bd1ffc7354efcea *R/subabs.R
 2861b4b6e1c44294efb44bceb5128fb3 *R/subsetabs.R
 9e9af9c26da10cbd146a0dd656ed755d *R/tdm_for_lsa.R
-13686b51b4111097ab2f542b226c78ac *R/uniprotfun.R
+a7ecb224cfcbcb34c7e9aae6ff5ceee9 *R/uniprotfun.R
 282c9aaca2b9747864ba88cbb0387c6d *R/whichcluster.R
 1b6304d683248a4e471f48042b37faae *R/word_atomizations.R
 a46d47b7c30fa070feb84cf8c8234de8 *R/wordscluster.R
