@@ -1,10 +1,10 @@
 \name{genes_BWI}
 \alias{genes_BWI}
 \title{
-Function to get the Buzz Word Index of Genes from the abstracts.
+Function to obtain the Buzz Word Index of Genes from the abstracts.
 }
 \description{
-This function gives the Buzz word index for each gene. The theme is the context in which the gene is studied for e.g. atherosclerosis. Using this function user can identify abstracts with emphasis on the given gene.
+This function provides the Buzz word index for each gene. The theme is the context in which the gene is studied for e.g. atherosclerosis. Using this function user can identify abstracts with emphasis on a given gene.
 }
 \usage{
 genes_BWI(currentabs, previousabs, theme, genes)
@@ -20,7 +20,7 @@ genes_BWI(currentabs, previousabs, theme, genes)
 \code{theme} a character value to categorize our search. For e.g. 'Atherosclerosis' from 'diabetes' Abstracts.
 }
   \item{genes}{
-\code{genes} list of genes. Output from gene_atomization().
+\code{genes} list of genes.
 }
 }
 \value{
@@ -38,7 +38,7 @@ S.Ramachandran
 ## previousabs is an S4 object contaning the Abtracts for the years previous 
 ## than our query year for e.g. before 2015
 ## theme is a character value specifying the search.
-## genes is list of genes output from gene_atomization().
+## genes is a character vector of gene symbols.
 }
 \keyword{ function }
 

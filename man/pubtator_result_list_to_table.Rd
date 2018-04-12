@@ -4,14 +4,14 @@
 Function to Convert Pubtator result from list into Table
 }
 \description{
-This function is used to collect the outputs of pubtator_function() after using lapply over multiple PMIDs. The pubtator_function() gives output in a list. This function enables to convert it into table for easy reading and further analysis. 
+This function is used to collect the outputs of pubtator_function() after using lapply over multiple PMIDs. This function enables to convert it into table for easy reading and further analysis. 
 }
 \usage{
 pubtator_result_list_to_table(x)
 }
 \arguments{
   \item{x}{
-here x is output of pubtator_function().
+here x is list output of pubtator_function().
 }
 }
 \value{

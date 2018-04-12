@@ -14,7 +14,7 @@ xmlreadabs(file)
 \author{S.Ramachandran}
 \seealso{\code{\link{readabs}}}
 \examples{
-\dontrun{test_run = xmlreadabs("pubmed_result.xml")}
+\dontrun{xmlabs = xmlreadabs("pubmed_result.xml")}
 ## here "pubmed_result.xml" is an xml format file downloaded from PubMed.}
 \keyword{Function}
 

@@ -26,7 +26,7 @@ S.Ramachandran, Jyoti Rani
 }
 \examples{
 \dontrun{local_uniprotfun("TLR4")}
-## here it will generate an output file named x.txt containing 
+## here it will generate an output file named "x.txt" containing 
 ## result for TLR4.
 }
 \keyword{local_uniprot_fun}

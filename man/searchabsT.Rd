@@ -16,14 +16,14 @@ searchabsT(object, yr, include, restrict, exclude)
 \details{In the arguments except the object all arguments have "NONE" as default. Use sendabs() function to write the results in a tab delimited text file.}
 \value{An object of class Abstracts meeting the term and the term combinations. A text file reporting the number of abstracts for the query terms and their combinations is als written with the filename "out.txt".}
 \author{Dr.S.Ramachandran}
-\seealso{\code{\link{searchabsT}}}
+\seealso{\code{\link{searchabsL}}}
 \examples{
-\dontrun{searchabsT(x,yr="2013")
-searchabsT(x,include="term")
-searchabsT(x,restrict="term")
-searchabsT(x,exclude="term")
-searchabsT(x,yr="2013", include="term")}
-## Here x is an S4 object of class Abstracts containing the abstracts to search,
+\dontrun{searchabsT(myabs,yr="2013")
+searchabsT(myabs,include="term")
+searchabsT(myabs,restrict="term")
+searchabsT(myabs,exclude="term")
+searchabsT(myabs,yr="2013", include="term")}
+## Here myabs is an S4 object of class Abstracts containing the abstracts to search,
 ## "term" is the query term to be search. 
 }
 \keyword{Function}

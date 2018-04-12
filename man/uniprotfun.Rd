@@ -6,13 +6,13 @@
 uniprotfun(y)
 }
 \arguments{
-  \item{y}{HGNC approved gene symbol as character}
+  \item{y}{a HGNC approved gene symbol as character}
 }
 \details{ This function retrieves data from the UniProt. At present uniprotfun() works with only HGNC approved gene symbols. }
-\value{ A text file written with filename as the 'query' name.}
+\value{ A text file written with filename as the 'query' name suffixed with .txt}
 \author{ S.Ramachandran }
 \examples{
-\dontrun{uniprotfun(x)}
+\dontrun{uniprotfun("SIRT1")}
 }
 \keyword{Function}
 

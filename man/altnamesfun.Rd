@@ -11,11 +11,11 @@ altnamesfun(m)
 }
 \arguments{
   \item{m}{
-is the HGNC gene symbol.
+is a character vector of HGNC official gene symbols.
 }
 }
 \value{
-It returns a list of alternative names of given Genes.
+It returns a list of alternative names of given Gene symbols.
 }
 \references{
 UniProt Consortium. "The universal protein resource (UniProt)." Nucleic acids research 36.suppl 1 (2008): D190-D195.
@@ -28,8 +28,8 @@ S.Ramachandran
 \code{\link{uniprotfun}}, ~~~
 }
 \examples{
-\dontrun{test = altnamesfun(x)}
-## here x is the HGNC gene symbol for which alternative name is required.
+\dontrun{test = altnamesfun(c("ADIPOQ","BDNF"))}
+## here "ADIPOQ" is the HGNC gene symbol for which alternative name(s) is required.
 }
 \keyword{ function }
 

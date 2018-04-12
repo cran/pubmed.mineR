@@ -3,7 +3,7 @@
 \docType{class}
 \alias{Abstracts-class}
 
-\title{Class \code{"Abstracts"} Absract Class}
+\title{Class \code{"Abstracts"} Abstract Class}
 \description{S4 Class with three slots Journal, Abstract, PMID to store abstracts from PubMed}
 \section{Objects from the Class}{
 Objects can be created by calls of the form \code{new("Abstracts", ...)}.

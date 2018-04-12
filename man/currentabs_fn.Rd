@@ -32,7 +32,7 @@ S.Ramachandran
 }
 \examples{
 \dontrun{test = currentabs_fn("2015", "atherosclerosis", diabetesabs)}
-## here "2015" is the year we want to extract the abstracts of theme"Atherosclerosis" 
+## here "2015" is the year for which, we wish to extract the abstracts on theme"Atherosclerosis" 
 ## from the large corpus of diabetes i.e. diabetesabs.
 }
 \keyword{ currentabs_fn }

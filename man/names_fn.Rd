@@ -1,7 +1,7 @@
 \name{names_fn}
 \alias{names_fn}
 \title{
-To extract the gene names from HGNC. 
+To extract the sentences in asbtracts containing gene names from HGNC. 
 }
 \description{
 \code{names_fn} matches the gene symbols to gene names and extract from HGNC.
@@ -11,10 +11,11 @@ names_fn(genes, data, abs, filename, terms)
 }
 \arguments{
   \item{genes}{
-\code{genes} is output of gene_atomization, a table containing gene with its frequency.
+\code{genes} is output of gene_atomization or a table containing HGNC gene symbols in first column with its frequency in second column.
 }
   \item{data}{
 \code{data} is HGNC data
+ table with all 49 features (columns) available from the web site https://www.genenames.org/
 }
   \item{abs}{
 \code{abs} an S4 object of class Abstracts.
@@ -23,13 +24,13 @@ names_fn(genes, data, abs, filename, terms)
 \code{filename} specifies the name of output file.
 }
   \item{terms}{
-\code{terms} query term to be search in the abstracts. 
-This is to restrict our search for particular theme from the abstracts
+\code{terms} second query term to be searched in the same sentence (co-occurrence) of abstracts. 
+
 }
 }
 
 \value{
-It returns an output file containing genes with their corresponding gene names.
+It returns an output file containing genes with their corresponding gene names and sentences with co-occurrences if any.
 }
 
 \author{
@@ -37,7 +38,7 @@ S.Ramachandran
 }
 \examples{
 \dontrun{
-names_fn(genes, HGNCdata, diabetes_abs, "prevsym.txt", c("diabetic nephropathy", "DN")
+names_fn(genes, data, diabetes_abs, "names", c("diabetic nephropathy", "DN"))
 }
 ## genes output of gene_atomization()
 }

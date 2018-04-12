@@ -7,7 +7,7 @@ whichcluster(clusterobject, y)
 }
 \arguments{
   \item{clusterobject}{an R object containing the clusters of words output by \code{wordscluster} function.}
-  \item{y}{a character string of query term.}
+  \item{y}{a character string of query terms.}
 }
 \value{a list containing the number of cluster under which given term occurs.}
 \author{S.Ramachandran}

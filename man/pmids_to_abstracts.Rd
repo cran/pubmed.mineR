@@ -24,6 +24,6 @@ It will return an S4 object of class abstracts containing abstracts for query PM
 S.Ramachandran
 }
 \examples{
-\dontrun{pmids_to_abstracts("26878666")}
+\dontrun{pmids_to_abstracts(26878666,abs)}
 }
 \keyword{function}

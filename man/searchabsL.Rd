@@ -17,12 +17,12 @@ searchabsL(object, yr, include, restrict, exclude)
 \author{S.Ramachandran}
 \seealso{\code{\link{searchabsT}}}
 \examples{
-\dontrun{searchabsL(x, include="term")
-searchabsL(x, yr="2013")
-searchabsL(x, restrict="term")
-searchabsL(x, exclude="term")
-searchabsL(x, include="term", exclude="term2")}
-## Here x is the object of class Abstracts containing data,
+\dontrun{searchabsL(myabs, include="term")
+searchabsL(myabs, yr="2013")
+searchabsL(myabs, restrict="term")
+searchabsL(myabs, exclude="term")
+searchabsL(myabs, include="term", exclude="term2")}
+## Here myabs is the object of class Abstracts containing data,
 ## "term" is the query term to be search.
 }
 \keyword{Function}

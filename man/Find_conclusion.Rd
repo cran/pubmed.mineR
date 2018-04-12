@@ -15,7 +15,7 @@ An S4 object of class 'Abstract'.
 }
 }
 \value{
-A list containing conclusion of given abstract(s)
+A list containing conclusions of given abstract(s)
 }
 \author{
 S.Ramachandran, Jyoti Rani

@@ -1,20 +1,21 @@
 \name{prevsymbol_fn}
 \alias{prevsymbol_fn}
 \title{
-To Find Previous symbols of genes.
+To extract the sentences containing Previous symbols of HGNC genes.
 }
 \description{
-\code{prevsymbol_fn} will return the previous symbols of the genes from the abstracts using HGNC data.
+\code{prevsymbol_fn} will return the sentences containing previous symbols of the genes from the abstracts using HGNC data.
 }
 \usage{
 prevsymbol_fn(genes, data, abs, filename, terms)
 }
 \arguments{
   \item{genes}{
-\code{genes} a character vector containing genes
+\code{genes}  is output of gene_atomization, or a table containing HGNC gene symbols in first column with its frequency in second column.
 }
   \item{data}{
-\code{data} HGNC data (downloadable from the site)
+\code{data} is HGNC data
+ table with all 49 features (columns) available from the web site https://www.genenames.org/
 }
   \item{abs}{
 \code{abs} an S4 object of class Abstracts.
@@ -23,7 +24,7 @@ prevsymbol_fn(genes, data, abs, filename, terms)
 \code{filename} specify the name of output file
 }
   \item{terms}{
-\code{terms} query terms to be search from the abstracts.
+\code{terms} second query term to be searched in the same sentence (co-occurrence) of abstracts.
 }
 }
 \value{
@@ -37,7 +38,7 @@ S.Ramachandran
 }
 \examples{
 \dontrun{
-prevsymbol_fn("SIRT1", HGNCdata, diabetes_abs, "prevsym.txt", c("diabetic nephropathy", "DN")
+prevsymbol_fn(genes, data, diabetes_abs, "prevsym", c("diabetic nephropathy", "DN"))
 }
 }
 \keyword{function}

@@ -12,8 +12,8 @@ printabs(object)
 \value{prints the total number of abstracts in an S4 object with additional information.}
 \author{S.Ramachandran}
 \examples{
-\dontrun{printabs(res1)}
-## here 'res1' is an S4 object of class Abstracts.
+\dontrun{printabs(myabs)}
+## here myabs is an S4 object of class Abstracts.
 }
 \keyword{Function}
 

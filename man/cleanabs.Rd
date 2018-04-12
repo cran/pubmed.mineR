@@ -13,7 +13,7 @@ cleanabs(object)
 \seealso{
 \code{\link{searchabsL}}
 }
-\examples{\dontrun{test1 = searchabsL(abs, include=c("term1", "term2"))
+\examples{\dontrun{test1 = searchabsL(abs, include=c("term1", "term2"));
 test2 = cleanabs(test1)}
 ## here 'abs' is an S4 object of class Abstracts
 ## 'term1', 'term2' are the searchterms

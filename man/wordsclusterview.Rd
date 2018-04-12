@@ -7,7 +7,7 @@ wordsclusterview(words_cluster, all)
 }
 \arguments{
   \item{words_cluster}{an R object containing output of wordscluster}
-  \item{all}{ is logical and default is FALSE, if set TRUE including those with one member word.}
+  \item{all}{ is logical and default is FALSE, if set to TRUE includes those with one member word.}
 }
 \details{The first 5 words and 5 words near the median nd 5 words at the tail end are shown for clusters with more than 15 members. In case of cluster size less than 15, all the words are written in output.}
 \value{It returns a text file named word_cluster_view.txt}

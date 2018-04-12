@@ -4,7 +4,7 @@
 To get the original terms from the corpus.
 }
 \description{
-\code{get_original_term2} is used to get the exact term as it is present in corpus. It is originated from get_original_term to give more accurate result. It takes one term at once. For multiple terms we can use lapply.
+\code{get_original_term2} is used to get the exact term as it is present in corpus. It takes one term at a time. For multiple terms we can use lapply.
 }
 \usage{
 get_original_term2(x, y)

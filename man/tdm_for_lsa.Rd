@@ -7,7 +7,7 @@ tdm_for_lsa(object, y)
 }
 \arguments{
   \item{object}{An S4 object of class 'Abstracts'}
-  \item{y}{character vector specifying the terms }
+  \item{y}{a character vector specifying the terms }
 }
 \value{
 a Term Document Matrix (Numerical matrix) containing the raw frequencies of given terms in each abstract.
@@ -17,6 +17,6 @@ Jyoti Rani
 }
 \examples{
 \dontrun{y = c("insulin", "inflammation", "obesity")
-tdm_for_lsa(diab_abs,y)}
+tdm_for_lsa(myabs,y)}
 }
 \keyword{ function }

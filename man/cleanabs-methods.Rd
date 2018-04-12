@@ -7,7 +7,7 @@
 \section{Methods}{
 \describe{
 \item{\code{signature(object = "Abstracts")}}{
-From an S4 object of class 'Abstracts' the cleanabs function is able to clean the output of searchabsL by removing the 'NONE' part of resulted abstracts.
+From an S4 object of class 'Abstracts' the cleanabs function is able to clean the output of searchabsL by removing the 'NONE' part of resultant abstracts.
 }
 }}
 \keyword{methods}

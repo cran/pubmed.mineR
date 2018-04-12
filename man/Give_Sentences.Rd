@@ -11,7 +11,7 @@ Give_Sentences(m, abs)
 }
 \arguments{
   \item{m}{
-\code{m} a character vector containing query term/s.
+\code{m} a character term.
 }
   \item{abs}{
 \code{abs} an S4 object of class Abstracts.

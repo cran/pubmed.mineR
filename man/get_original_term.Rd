@@ -1,7 +1,7 @@
 \name{get_original_term}
 \alias{get_original_term}
-\title{To get the original terms from the corpus.}
-\description{\code{get_original_term} is used to get the exact term as it is present in corpus.}
+\title{To get the original terms from the corpus. deprecated}
+\description{\code{get_original_term} is used to get the exact term as it is present in corpus. This function is not recommended anymore.}
 \usage{
 get_original_term(m, n)
 }

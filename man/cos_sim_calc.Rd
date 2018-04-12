@@ -2,7 +2,7 @@
 \alias{cos_sim_calc}
 \title{To calculate the cosine similarity between terms.}
 \description{
-\code{cos_sim_calc} calculates the cosine measure of similarity between pairs of terms from corpus.}
+\code{cos_sim_calc} calculates the cosine measure of similarity between pairs of terms from a corpus.}
 \usage{
 cos_sim_calc(nummatrix)
 }
@@ -10,7 +10,7 @@ cos_sim_calc(nummatrix)
   \item{nummatrix}{A numerical matrix for e.g. a Term Document matrix (output from tdm_for_lsa)}
 }
 \details{The term document matrix is taken as input and cosine meausures of similarity between all pairs of terms are calculated.}
-\value{An R object and a tab delimited text file containing the similarity values between all pairs of terms.}
+\value{A tab delimited text file containing the similarity values between all pairs of terms.}
 \references{
 https://en.wikipedia.org/wiki/Cosine_similarity
 }

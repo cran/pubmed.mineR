@@ -11,7 +11,7 @@ get_gene_sentences(genes, abs, filename)
 }
 \arguments{
   \item{genes}{
-\code{genes} a character vector containing the gene/s.
+\code{genes} a character vector containing the gene symbols.
 }
   \item{abs}{
 \code{abs} an S4 object of class Abstracts

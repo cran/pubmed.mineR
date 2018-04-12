@@ -10,15 +10,15 @@ To extract the Gene sequence from the NCBI.
 get_Sequences(x, filename)
 }
 \arguments{
-  \item{x}{ list of NM Ids of the sequences.
+  \item{x}{ NM Id of the sequence.
 
 }
   \item{filename}{
-\code{filename} sepcifies the name of output file.
+\code{filename} specifies the name of output file.
 }
 }
 \value{
-It will return a text file containing sequences.
+It will return a text file containing sequence.
 }
 \author{
 S.Ramachandran
@@ -27,7 +27,7 @@ S.Ramachandran
 \code{\link{get_NMids}}, ~~~
 }
 \examples{
-\dontrun{get_Sequences(NM_012238.4, "SIRT1_seq.txt")}
+\dontrun{get_Sequences("NM_012238.4", "SIRT1")}
 }
 \keyword{function}
 

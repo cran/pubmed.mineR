@@ -14,8 +14,8 @@ subabs(object, start, end)
 \value{An R object of class 'Abstracts' containing the extracted abstracts meeting a given range.}
 \author{Jyoti Rani, S.Ramachandran}
 \examples{
-\dontrun{subabs(x,1,5)}
-## Here 'x' is an S4 object of class 'Abstracts', 
-## 1 and 5 are the start and end point respectively.
+\dontrun{subabs(myabs,1,5)}
+## Here 'myabs is an S4 object of class 'Abstracts', 
+## 1 and 5 are the start and end respectively.
 }
 \keyword{Function}

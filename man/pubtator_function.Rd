@@ -1,7 +1,7 @@
 \name{pubtator_function}
 \alias{pubtator_function}
 \title{
-function for text annotation uisng online PubTator
+function for text annotation using PubTator
 }
 \description{
 \code{pubtator_function} is used to extract specific information from an abstract like Gene, chemical, and diseases etc. 
@@ -11,7 +11,7 @@ pubtator_function(x)
 }
 \arguments{
   \item{x}{
-numeric value describing 'PMID'.
+numeric value PMID.
 }
 }
 \details{

@@ -1,23 +1,23 @@
 \name{BWI}
 \alias{BWI}
 \title{
-To Get the Buzz Word Index of terms form the Abstracts.
+To obtain the Buzz Word Index of terms from the Abstracts.
 }
 \description{
-This function is used to get the Buzz word index value for the terms. Buzz word became popular for a period of time.
+This function is used to obtain the Buzz word index value for the terms.
 }
 \usage{
 BWI(current, previous, n, N)
 }
 \arguments{
 \item{current}{
-  \code{current} an S4 object containing the Abtracts for the year we want to study. Output from currentabs_fn()
+  \code{current} an S4 object containing the Abtracts for the current year we require the BWI an output from currentabs_fn()
 }
   \item{previous}{
-\code{previous} an S4 object containing the Abstracts for years previous to our year of study. Output from previousabs_fn().
+\code{previous} an S4 object containing the Abstracts for years previous to current year of study an output from previousabs_fn().
 }
   \item{n}{
-\code{n} is a character value for which Buzz Word Index is to be calculated.
+\code{n} is a character term for which Buzz Word Index is to be calculated.
 }
   \item{N}{
 \code{N} is a character value specifying the theme from the large corpus.
@@ -36,10 +36,12 @@ S.Ramachandran
 \code{\link{genes_BWI}}
 }
 \examples{
-\dontrun{BWI(current, previous, n, N)}
-## here current is an S4 object containing the output from currentabs_fn()
+\dontrun{result = BWI(mycurrentabs, mypreviousabs, "insulin", "inflammation")}
+## BWI for the term "insulin" and the theme is inflammation. 
+## Note that in the previous, years are starting one before the current year 2015; 
+## current is an S4 object containing the output from currentabs_fn()
 ## previous is an S4 object containing the output from previousabs_fn().
-## 'n' and 'N' are query word and theme respectively
+## 'n' and 'N' are query terms whose BWI is sought and the theme respectively
 }
 \keyword{ function }
 

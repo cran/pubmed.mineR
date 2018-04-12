@@ -12,8 +12,8 @@ word_atomizations(m)
 \value{ A text file containing words with their frequencies}
 \author{S. Ramachandran, Jyoti Sharma}
 \examples{
-\dontrun{word_atomizations(x)}
-## here x is the object containing abstracts.
+\dontrun{word_atomizations(myabs)}
+## here myabs is the object containing abstracts.
 }
 \keyword{function}
 

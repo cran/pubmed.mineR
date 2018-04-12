@@ -12,7 +12,7 @@ readabs(x)
 \value{An S4 object of class "Abstracts", and a text file with tab delimited headers Journal, Abstract, PMID written with file name "newabs.txt".}
 \author{S.Ramachandran}
 \examples{
-\dontrun{readabs("pubmed_filename.txt")}
-##here x is the text file of abstracts saved from PubMed.
+\dontrun{readabs("pubmed_result.txt")}
+##here pubmed_result.txt is the text file of abstracts saved from PubMed.
 }
 \keyword{Function}

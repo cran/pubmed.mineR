@@ -1,10 +1,10 @@
 \name{get_PMCtable}
 \alias{get_PMCtable}
 \title{
-To fetch the given PMC article.
+To fetch the given PMC article tables. Deprecated
 }
 \description{
-\code{get_PMCtable} is used to extract the full texr article by giving query PMC Id. 
+\code{get_PMCtable} is used to extract the full texr article by giving query PMC Id. Deprecated.
 }
 \usage{
 get_PMCtable(url)
@@ -27,7 +27,7 @@ S.Ramachandran
 \code{\link{get_PMCIDS}}
 }
 \examples{
-\dontrun{get_PMCtable(http://www.ncbi.nlm.nih.gov/pmc/?term=4039032)}
+\dontrun{get_PMCtable("http://www.ncbi.nlm.nih.gov/pmc/?term=4039032")}
 }
 \keyword{function}
 

@@ -14,7 +14,7 @@ Give_Sentences_PMC(PMCID, term)
 \code{PMCID} represents the PMC Id from where we want to extract the sentence.
 }
   \item{term}{
-\code{term} represents the term we want to extract from the article.
+\code{term} represents the term contained in a sentence.
 }
 }
 \value{

@@ -13,8 +13,8 @@ sendabs(object, x)
 \value{A tab delimited text file with headers Journal, Abstract, PMID.}
 \author{S.Ramachandran, Jyoti Rani}
 \examples{
-\dontrun{sendabs(x,"abs.txt")}
-## here 'x' is the S4 object of class 'Abstracts' and 
+\dontrun{sendabs(myabs,"myabs.txt")}
+## here myabs is the S4 object of class 'Abstracts' and 
 ## 'abs.txt' is the file where abstracts will be written.
 }
 \keyword{Functions}
