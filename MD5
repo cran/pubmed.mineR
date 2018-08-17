@@ -1,10 +1,10 @@
-83432f9e2bca79346a64e40eed0e8890 *DESCRIPTION
-8b9c8082a430d3cc34ed48dc04b61c5e *NAMESPACE
+7bf3982efba974f6480dddb4586ff294 *DESCRIPTION
+93b46a578b6d4021b1025fb737bd6fe7 *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
 e2a93853ddd92ddfe94633518de6055e *R/Genewise.R
-9f1a670faec1be3b2d82b86d5204985f *R/Give_Sentences.R
+a0c607d60f12f1536bdb246fdb9b8a1c *R/Give_Sentences.R
 ddb89305c712d11f64ab6e7430e58db7 *R/Give_Sentences_PMC.R
 3a1ff0232498995f1bb420b0f64e2b5f *R/HGNC-class.R
 0534c302bc63d4ea2aaffe663a4716c5 *R/SentenceToken.R
@@ -13,6 +13,7 @@ f233d54a4034fcf7f430bcff27fbecbe *R/Yearwise.R
 dbfe620d63db4fa06cd7484ce763f2f0 *R/altnamesfun.R
 48516390659547dfd7055df02a4fe741 *R/cleanabs.R
 0783c939ba6db88b34509ee757bea63d *R/cluster_words.R
+fbe82e911803daba041f2c75eb7d1522 *R/co_occurrence_fn.R
 8dcb31f8619672c0672031c063f6f2df *R/combineabs.R
 e88dd42f60ea8c8d41bcbd5012f43723 *R/contextSearch.R
 e597ac7c804a181508c13d429cf246ef *R/cos_sim_calc.R
@@ -44,11 +45,13 @@ b10b90b06a1f45d0a08027be1e22cf2d *R/prevsymbol_fn.R
 8168fb7f5e0192ce10c156f4dd25576b *R/pubtator_function.R
 2462872f0b296ba76f4f82fa484cb712 *R/pubtator_result_list_to_table.R
 b6cb479cfb0a3e2cd263625708990b25 *R/readabs.R
+e72df413e3bd10e0cdda29881ef5e129 *R/readabsnew.R
 207254f07651cc2f4c476fcdaef0e1af *R/ready.R
 839630dc23031d54852a955819db34b8 *R/removeabs.R
 3bb59a0495a4977709d1303a097f8b68 *R/searchabsL.R
 406979597a53136a238a172ba1e57828 *R/searchabsT.R
 e3676d92fbf2d79b5287ca13c500718a *R/sendabs.R
+6cef868826b61899f3384de58ce947e9 *R/space_quasher.R
 81f40dd2539425105bd1ffc7354efcea *R/subabs.R
 2861b4b6e1c44294efb44bceb5128fb3 *R/subsetabs.R
 9e9af9c26da10cbd146a0dd656ed755d *R/tdm_for_lsa.R
@@ -63,7 +66,7 @@ b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
 70727915ee4e8fb84e626d394676b627 *data/GeneToEntrez.rda
 e69e434cfc91aa225d72ffdfa1da4a3d *data/HGNC2UniprotID.rda
 94ba342ab089aa00c2994902c1177eca *data/HGNCdata.rda
-6a0cb1457feb7812779114526ad0d65d *data/common_words_new.rda
+a1b543c9b7b8d9f5740547bd8f2c0dfc *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
 00d39066be652ae7cee76673315839fc *inst/CITATION
 52f96bb1ffb560cc89d94c10275d37b0 *man/Abstracts-class.Rd
@@ -85,6 +88,7 @@ f323b79acfe355265d8d354322ce796d *man/alias_fn.Rd
 fd2790c86bc900896491ead5416f82b6 *man/cleanabs-methods.Rd
 e8a38593aa010cc5b97b60c46652e8b4 *man/cleanabs.Rd
 617d0ddb733c596775ca8e50c334bd63 *man/cluster_words.Rd
+783c5b88911135c8b7946a0f80449904 *man/co_occurrence_fn.Rd
 9039b4178dd1d8dd1943c8a39256309b *man/combineabs-methods.Rd
 ff0097233fce0af717a5434f0579368e *man/combineabs.Rd
 a883313ef40b20a0c4d88339000820c5 *man/common_words_new.Rd
@@ -120,6 +124,7 @@ d64673b3368f5769dd0b7ad9cc78b0e2 *man/head_abbrev.Rd
 ac782755bac6e4e2ed7691520561abb0 *man/pubtator_function.Rd
 94f033116268b745d07e74292b6cf07a *man/pubtator_result_list_to_table.Rd
 0b8c3075a73608cc8216cd8861afffbb *man/readabs.Rd
+8a74b9425ab7de3ecc6a70192596682e *man/readabsnew.Rd
 8e56b0daa0b9b66a318ae4af39e67b70 *man/ready.Rd
 18fb19303bc0f2fad12d1737de1c560b *man/removeabs-methods.Rd
 dfbf41a77fae01173712acd9352fae5e *man/removeabs.Rd
@@ -129,6 +134,7 @@ dfbf41a77fae01173712acd9352fae5e *man/removeabs.Rd
 726f8fa1881e5ed576fbcaefcfaa5927 *man/searchabsT.Rd
 da8015b89c103abb374578b08b3f48ba *man/sendabs-methods.Rd
 99bd348b59f1a67664248ed541d706be *man/sendabs.Rd
+68993dacc0a6d4e8028ade33785559a4 *man/space_quasher.Rd
 60309c165ce028949228c97285696441 *man/subabs-methods.Rd
 0438e41bca10ba0c60047f945fc86b6c *man/subabs.Rd
 c15ba2673a6343fd303da54fdfc2bf1a *man/subsetabs-methods.Rd

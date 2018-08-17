@@ -47,4 +47,7 @@ export(pmids_to_abstracts)
 export(get_gene_sentences)
 export(Give_Sentences)
 export(get_MedlinePlus)
+export(co_occurrence_fn)
+export(space_quasher)
+export(readabsnew)
 
