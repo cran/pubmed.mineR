@@ -1,7 +1,7 @@
 pubtator_function = function (x) 
 {
-    test = getURL(paste("https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/RESTful/tmTool.cgi/BioConcept/", 
-        x,"/PubTator",sep = ""))
+    test = getURL(paste("https://www.ncbi.nlm.nih.gov/research/pubtator-api/publications/export/pubtator?pmids=", 
+        x,sep = ""))
     testa = unlist(strsplit(test, "\n", fixed = T))
     table1 = NULL
     for (i in 3:length(testa)) {

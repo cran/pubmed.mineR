@@ -1,4 +1,4 @@
-7bf3982efba974f6480dddb4586ff294 *DESCRIPTION
+6bded12bbe3ee1cd806536e750b6a673 *DESCRIPTION
 93b46a578b6d4021b1025fb737bd6fe7 *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
@@ -42,7 +42,7 @@ a944833320e4869bd17a8dc91a4c0485 *R/pmids_to_abstracts.R
 622b513209f8656e0834144cf8221ede *R/previousabs_fn.R
 b10b90b06a1f45d0a08027be1e22cf2d *R/prevsymbol_fn.R
 58f421e3e936f4b2abfc25b39dd37cc9 *R/printabs.R
-8168fb7f5e0192ce10c156f4dd25576b *R/pubtator_function.R
+047e326192c689c30f101f6192ce0443 *R/pubtator_function.R
 2462872f0b296ba76f4f82fa484cb712 *R/pubtator_result_list_to_table.R
 b6cb479cfb0a3e2cd263625708990b25 *R/readabs.R
 e72df413e3bd10e0cdda29881ef5e129 *R/readabsnew.R
