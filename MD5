@@ -1,5 +1,5 @@
-6bded12bbe3ee1cd806536e750b6a673 *DESCRIPTION
-93b46a578b6d4021b1025fb737bd6fe7 *NAMESPACE
+695d42e3fc9f34a66ec8b41398e4cd06 *DESCRIPTION
+bbd0dd4d36a82a80b966f1fdcdaffcfc *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
@@ -42,7 +42,7 @@ a944833320e4869bd17a8dc91a4c0485 *R/pmids_to_abstracts.R
 622b513209f8656e0834144cf8221ede *R/previousabs_fn.R
 b10b90b06a1f45d0a08027be1e22cf2d *R/prevsymbol_fn.R
 58f421e3e936f4b2abfc25b39dd37cc9 *R/printabs.R
-047e326192c689c30f101f6192ce0443 *R/pubtator_function.R
+04af019d23d1f8bf9eec25ce4d69b49d *R/pubtator_function.R
 2462872f0b296ba76f4f82fa484cb712 *R/pubtator_result_list_to_table.R
 b6cb479cfb0a3e2cd263625708990b25 *R/readabs.R
 e72df413e3bd10e0cdda29881ef5e129 *R/readabsnew.R
@@ -57,16 +57,17 @@ e3676d92fbf2d79b5287ca13c500718a *R/sendabs.R
 9e9af9c26da10cbd146a0dd656ed755d *R/tdm_for_lsa.R
 a7ecb224cfcbcb34c7e9aae6ff5ceee9 *R/uniprotfun.R
 282c9aaca2b9747864ba88cbb0387c6d *R/whichcluster.R
+01abaee3fa2331b6b10f54f10f4af9c8 *R/word_associations.R
 1b6304d683248a4e471f48042b37faae *R/word_atomizations.R
 a46d47b7c30fa070feb84cf8c8234de8 *R/wordscluster.R
 f13ccb51ea86109a92a156784d4bbf69 *R/wordsclusterview.R
 b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
 4be73f6bb45c242fa50dc2adb9e76703 *R/xmlreadabs.R
 b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
-70727915ee4e8fb84e626d394676b627 *data/GeneToEntrez.rda
-e69e434cfc91aa225d72ffdfa1da4a3d *data/HGNC2UniprotID.rda
-94ba342ab089aa00c2994902c1177eca *data/HGNCdata.rda
-a1b543c9b7b8d9f5740547bd8f2c0dfc *data/common_words_new.rda
+3703b7b7d866480eb9614cd64973092f *data/GeneToEntrez.rda
+81c22471940279c2a32a729543b92a4d *data/HGNC2UniprotID.rda
+2ebfb1bfba0834e907ee18af9faefcc1 *data/HGNCdata.rda
+2849e23d24024218bc6d1ea5400e06e0 *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
 00d39066be652ae7cee76673315839fc *inst/CITATION
 52f96bb1ffb560cc89d94c10275d37b0 *man/Abstracts-class.Rd
@@ -121,7 +122,7 @@ d64673b3368f5769dd0b7ad9cc78b0e2 *man/head_abbrev.Rd
 433ef659fe539f8e9d1784e786ead36f *man/previousabs_fn.Rd
 49551a0f773b6eb820f2c559feb0126e *man/prevsymbol_fn.Rd
 17c9f26e08bad972e200ed5814bb3a34 *man/printabs.Rd
-ac782755bac6e4e2ed7691520561abb0 *man/pubtator_function.Rd
+a0dfc79bfe1f22db446a005461f5ae98 *man/pubtator_function.Rd
 94f033116268b745d07e74292b6cf07a *man/pubtator_result_list_to_table.Rd
 0b8c3075a73608cc8216cd8861afffbb *man/readabs.Rd
 8a74b9425ab7de3ecc6a70192596682e *man/readabsnew.Rd
@@ -142,6 +143,7 @@ c15ba2673a6343fd303da54fdfc2bf1a *man/subsetabs-methods.Rd
 9019db45574feca83207d34bf053ee67 *man/tdm_for_lsa.Rd
 6c956f385deaa06aee9eea9e2329384a *man/uniprotfun.Rd
 d7ee3e217b5b03fb38bc91317e0c1236 *man/whichcluster.Rd
+0b35ef685773c19f216e0d1d9cb4b566 *man/word_associations.Rd
 41fdddcffad655486ad067cec672333a *man/word_atomizations.Rd
 f73c8c251ecfd57f3f51f845f4f0a4da *man/wordscluster.Rd
 76c4a60071cdf8413c8cec9b39433375 *man/wordsclusterview.Rd

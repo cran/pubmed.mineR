@@ -18,7 +18,7 @@ numeric value PMID.
 \code{pubtator_function} allow users to get information about 'Gene', 'Chemical' and 'Disease' for given PMID. It uses online tool PubTator on R plateform. It also removes redundancy from the output. It takes one PMID at once, for multiple PMIDs user can use lapply() function.
 }
 \value{
-It returns a list object containing Gene, Chemical, Disease and PMID. 
+It returns a list object containing Gene, Chemical, Disease and PMID. The corresponding concept id numbers are joined by a '>' character. This is useful for further data mining 
 }
 \references{
 Wei CH et. al., PubTator: a Web-based text mining tool for assisting Biocuration, Nucleic acids research, 2013, 41 (W1): W518-W522. doi: 10.1093/nar/gkt44
@@ -35,4 +35,3 @@ S.Ramachandran, Jyoti Rani
 ## here pubtator_function() will extract the information from this given pmid.
 }
 \keyword{function}
-
