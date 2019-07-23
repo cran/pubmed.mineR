@@ -50,5 +50,7 @@ export(get_MedlinePlus)
 export(co_occurrence_fn)
 export(space_quasher)
 export(readabsnew)
+export(readabsnew)
 export(word_associations)
+export(get_DOIs)
 
