@@ -1,6 +1,6 @@
 readabsnew = function (x) 
 {
-    xa <- readLines(con = x)
+    xa <- readLines(con = x, warn=FALSE)
     xa <- c("PMID: MOCK", "", xa)
     xb <- regexpr("PMID", xa)
     xc = unlist(lapply(1:length(xb), function(x) {

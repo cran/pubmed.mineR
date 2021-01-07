@@ -1,4 +1,4 @@
-3178ab584d61152223830eb565403162 *DESCRIPTION
+e23d1d07a7d60d72f0695116847b9bfa *DESCRIPTION
 35577dda79667cee133e4263a3df5e7a *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
@@ -20,7 +20,7 @@ e597ac7c804a181508c13d429cf246ef *R/cos_sim_calc.R
 340c71516f4300bbb6aee5473d78681a *R/cos_sim_calc_boot.R
 4b94fd4ac6290369006c7b0457014702 *R/currentabs_fn.R
 0ebfa46ee5ff23c04d628f6ab3f55bda *R/find_intro_conc_html.R
-b1f5d6186cfd5a7b9dafdfd15d514c92 *R/gene_atomization.R
+5790f87f1609101e398cdcc8371d4809 *R/gene_atomization.R
 f312d1946e6a6f0a5e78eec23d18b90a *R/genes_BWI.R
 d747aa6e2672946b29d196daf23c55df *R/get_DOIs.R
 55dc19253f7db83194a1277662a9ce78 *R/get_MedlinePlus.R
@@ -45,8 +45,8 @@ b10b90b06a1f45d0a08027be1e22cf2d *R/prevsymbol_fn.R
 58f421e3e936f4b2abfc25b39dd37cc9 *R/printabs.R
 04af019d23d1f8bf9eec25ce4d69b49d *R/pubtator_function.R
 2462872f0b296ba76f4f82fa484cb712 *R/pubtator_result_list_to_table.R
-b6cb479cfb0a3e2cd263625708990b25 *R/readabs.R
-e72df413e3bd10e0cdda29881ef5e129 *R/readabsnew.R
+0328520427eb049ddb24cd0d607e69e4 *R/readabs.R
+aa39f241572a82ff291fe1fe39e52d97 *R/readabsnew.R
 207254f07651cc2f4c476fcdaef0e1af *R/ready.R
 839630dc23031d54852a955819db34b8 *R/removeabs.R
 3bb59a0495a4977709d1303a097f8b68 *R/searchabsL.R
@@ -67,7 +67,7 @@ b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
 b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
 2f017ec1450321143b681383e3bf1b50 *data/GeneToEntrez.rda
 24b6cb6f5aff4c2dc345d50e6d196ba9 *data/HGNC2UniprotID.rda
-8cfe9956e67cd101478a164f2cc5c08d *data/HGNCdata.rda
+d7d81e5dfcb798c81f93aa6799bdf6b4 *data/HGNCdata.rda
 e3dd02115fba97c400b287ab14efeab4 *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
 00d39066be652ae7cee76673315839fc *inst/CITATION

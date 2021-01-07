@@ -1,7 +1,7 @@
 readabs <-
 function(x)
 {
-xa <- readLines(con = x); 
+xa <- readLines(con = x,warn=FALSE); 
 xa <- c("PMID: MOCK","",xa);
 xb <- regexpr("PMID", xa); 
 
