@@ -1,5 +1,5 @@
-e23d1d07a7d60d72f0695116847b9bfa *DESCRIPTION
-35577dda79667cee133e4263a3df5e7a *NAMESPACE
+d70b83636a7e9d6541c50bb94093259b *DESCRIPTION
+2fdd35bc5d83f1ea7f5b33daaade7bde *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
@@ -9,6 +9,7 @@ ddb89305c712d11f64ab6e7430e58db7 *R/Give_Sentences_PMC.R
 3a1ff0232498995f1bb420b0f64e2b5f *R/HGNC-class.R
 0534c302bc63d4ea2aaffe663a4716c5 *R/SentenceToken.R
 f233d54a4034fcf7f430bcff27fbecbe *R/Yearwise.R
+3ad3223bfa2c2c63fbcb0c73cd7f367d *R/additional_info.R
 4809f9abe59a9be231f36560824e5c4b *R/alias_fn.R
 dbfe620d63db4fa06cd7484ce763f2f0 *R/altnamesfun.R
 48516390659547dfd7055df02a4fe741 *R/cleanabs.R
@@ -38,6 +39,7 @@ f7899ed42dface8ed898eb07e7ae6790 *R/get_original_term2.R
 2f0c33467487e4d4a8d90bb7a6a97e35 *R/input_for_find_intro_conc_html.R
 6187f8fe939e3acebfda7a4592d8d2a6 *R/local_uniprotfun.R
 99cb02e8c9e6c1703870cc5fdbea073a *R/names_fn.R
+fed2cf5c22b0cd30ed598cba4261a2f5 *R/new_xmlreadabs.R
 852d5a029d9d1488139330707aded4ef *R/official_fn.R
 a944833320e4869bd17a8dc91a4c0485 *R/pmids_to_abstracts.R
 622b513209f8656e0834144cf8221ede *R/previousabs_fn.R
@@ -65,10 +67,10 @@ f13ccb51ea86109a92a156784d4bbf69 *R/wordsclusterview.R
 b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
 4be73f6bb45c242fa50dc2adb9e76703 *R/xmlreadabs.R
 b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
-2f017ec1450321143b681383e3bf1b50 *data/GeneToEntrez.rda
-24b6cb6f5aff4c2dc345d50e6d196ba9 *data/HGNC2UniprotID.rda
-d7d81e5dfcb798c81f93aa6799bdf6b4 *data/HGNCdata.rda
-e3dd02115fba97c400b287ab14efeab4 *data/common_words_new.rda
+e26bcd4e4bf9cd41d7ea7b3151d0e10c *data/GeneToEntrez.rda
+7a0fbd01e8399e027cf943e682a499c1 *data/HGNC2UniprotID.rda
+45075ea6772ef41553933e6c1ebb7a25 *data/HGNCdata.rda
+45f673f06a621e76aecf5681f1fc75e5 *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
 00d39066be652ae7cee76673315839fc *inst/CITATION
 52f96bb1ffb560cc89d94c10275d37b0 *man/Abstracts-class.Rd
@@ -85,6 +87,7 @@ cb664f43b92ea525c4a03556398c2ee6 *man/HGNC-class.Rd
 63a0a40cd27b0fc7a5a7af81493b4650 *man/SentenceToken.Rd
 5f6187321b63fecc680892db1c011f4a *man/Yearwise-methods.Rd
 ac74ebee5ad96db0504d7c6750aa74ca *man/Yearwise.Rd
+e0912f52b10b5351805dc3e3a72ba8f3 *man/additional_info.Rd
 f323b79acfe355265d8d354322ce796d *man/alias_fn.Rd
 6c47b9ce94ed83cb3339c8af911e6330 *man/altnamesfun.Rd
 fd2790c86bc900896491ead5416f82b6 *man/cleanabs-methods.Rd
@@ -119,6 +122,7 @@ d64673b3368f5769dd0b7ad9cc78b0e2 *man/head_abbrev.Rd
 6a1d9e33606e500dd71d98d8177c29e5 *man/input_for_find_intro_conc_html.Rd
 9232c41cbe801799ca3eb80e621f098b *man/local_uniprotfun.Rd
 7134fd037b9837964f60de333be4646d *man/names_fn.Rd
+50664da8e0044423f40bbc8584a4ce67 *man/new_xmlreadabs.Rd
 022c75cff47e27b9e43c85170bdc1817 *man/official_fn.Rd
 8bbaddad69c6ec3aef683b877306f640 *man/pmids_to_abstracts.Rd
 433ef659fe539f8e9d1784e786ead36f *man/previousabs_fn.Rd

@@ -53,4 +53,5 @@ export(readabsnew)
 export(readabsnew)
 export(word_associations)
 export(get_DOIs)
-
+export(additional_info)
+export(new_xmlreadabs)
