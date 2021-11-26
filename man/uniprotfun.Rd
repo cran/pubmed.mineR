@@ -1,7 +1,7 @@
 \name{uniprotfun}
 \alias{uniprotfun}
-\title{To get information about gene from the UniProt.}
-\description{\code{uniprotfun} will access the UniProt data for a given gene as per HGNC approved gene symbols}
+\title{To get information about gene from the UniProt.Deprecated.}
+\description{\code{uniprotfun} will access the UniProt data for a given gene as per HGNC approved gene symbols. Deprecated.}
 \usage{
 uniprotfun(y)
 }

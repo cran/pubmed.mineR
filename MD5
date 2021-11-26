@@ -1,5 +1,5 @@
-d70b83636a7e9d6541c50bb94093259b *DESCRIPTION
-2fdd35bc5d83f1ea7f5b33daaade7bde *NAMESPACE
+bd383099eda1bc3adddad698c8f352d3 *DESCRIPTION
+1781aef66a8375c2f012e144f3358caf *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
@@ -14,6 +14,7 @@ f233d54a4034fcf7f430bcff27fbecbe *R/Yearwise.R
 dbfe620d63db4fa06cd7484ce763f2f0 *R/altnamesfun.R
 48516390659547dfd7055df02a4fe741 *R/cleanabs.R
 0783c939ba6db88b34509ee757bea63d *R/cluster_words.R
+6369b539f43fdc91e5b1495ce22b0077 *R/co_occurrence_advance.R
 fbe82e911803daba041f2c75eb7d1522 *R/co_occurrence_fn.R
 8dcb31f8619672c0672031c063f6f2df *R/combineabs.R
 e88dd42f60ea8c8d41bcbd5012f43723 *R/contextSearch.R
@@ -46,6 +47,7 @@ a944833320e4869bd17a8dc91a4c0485 *R/pmids_to_abstracts.R
 b10b90b06a1f45d0a08027be1e22cf2d *R/prevsymbol_fn.R
 58f421e3e936f4b2abfc25b39dd37cc9 *R/printabs.R
 04af019d23d1f8bf9eec25ce4d69b49d *R/pubtator_function.R
+4ea9371b4176f2853cbddc120f35c76a *R/pubtator_function_JSON.R
 2462872f0b296ba76f4f82fa484cb712 *R/pubtator_result_list_to_table.R
 0328520427eb049ddb24cd0d607e69e4 *R/readabs.R
 aa39f241572a82ff291fe1fe39e52d97 *R/readabsnew.R
@@ -65,12 +67,13 @@ a7ecb224cfcbcb34c7e9aae6ff5ceee9 *R/uniprotfun.R
 a46d47b7c30fa070feb84cf8c8234de8 *R/wordscluster.R
 f13ccb51ea86109a92a156784d4bbf69 *R/wordsclusterview.R
 b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
+cecb89df7e7a95bcd7e7b0d1dd7e00c3 *R/xmlgene_atomizations_new.R
 4be73f6bb45c242fa50dc2adb9e76703 *R/xmlreadabs.R
 b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
-e26bcd4e4bf9cd41d7ea7b3151d0e10c *data/GeneToEntrez.rda
-7a0fbd01e8399e027cf943e682a499c1 *data/HGNC2UniprotID.rda
-45075ea6772ef41553933e6c1ebb7a25 *data/HGNCdata.rda
-45f673f06a621e76aecf5681f1fc75e5 *data/common_words_new.rda
+4a74d2741218e98aa6efdf30a1f6731b *data/GeneToEntrez.rda
+03df5c71c0bfc4e130a8e570fe3f9c8f *data/HGNC2UniprotID.rda
+6dc911c9600f406c82717bb518c771eb *data/HGNCdata.rda
+f41f215d2a4da4322a54934e434118a1 *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
 00d39066be652ae7cee76673315839fc *inst/CITATION
 52f96bb1ffb560cc89d94c10275d37b0 *man/Abstracts-class.Rd
@@ -93,6 +96,7 @@ f323b79acfe355265d8d354322ce796d *man/alias_fn.Rd
 fd2790c86bc900896491ead5416f82b6 *man/cleanabs-methods.Rd
 e8a38593aa010cc5b97b60c46652e8b4 *man/cleanabs.Rd
 617d0ddb733c596775ca8e50c334bd63 *man/cluster_words.Rd
+be317e7ad96ff1666cb635459a87d983 *man/co_occurrence_advance.Rd
 783c5b88911135c8b7946a0f80449904 *man/co_occurrence_fn.Rd
 9039b4178dd1d8dd1943c8a39256309b *man/combineabs-methods.Rd
 ff0097233fce0af717a5434f0579368e *man/combineabs.Rd
@@ -129,6 +133,7 @@ d64673b3368f5769dd0b7ad9cc78b0e2 *man/head_abbrev.Rd
 49551a0f773b6eb820f2c559feb0126e *man/prevsymbol_fn.Rd
 17c9f26e08bad972e200ed5814bb3a34 *man/printabs.Rd
 a0dfc79bfe1f22db446a005461f5ae98 *man/pubtator_function.Rd
+fa7c8016f2862f27a3e932c44c4f31fc *man/pubtator_function_JSON.Rd
 94f033116268b745d07e74292b6cf07a *man/pubtator_result_list_to_table.Rd
 0b8c3075a73608cc8216cd8861afffbb *man/readabs.Rd
 8a74b9425ab7de3ecc6a70192596682e *man/readabsnew.Rd
@@ -147,12 +152,13 @@ da8015b89c103abb374578b08b3f48ba *man/sendabs-methods.Rd
 c15ba2673a6343fd303da54fdfc2bf1a *man/subsetabs-methods.Rd
 8f138687aa0f2f7a05fedbfd3e0ff827 *man/subsetabs.Rd
 9019db45574feca83207d34bf053ee67 *man/tdm_for_lsa.Rd
-6c956f385deaa06aee9eea9e2329384a *man/uniprotfun.Rd
+2f7a4685bc46af47a629af82b3abac34 *man/uniprotfun.Rd
 d7ee3e217b5b03fb38bc91317e0c1236 *man/whichcluster.Rd
 0b35ef685773c19f216e0d1d9cb4b566 *man/word_associations.Rd
 41fdddcffad655486ad067cec672333a *man/word_atomizations.Rd
 f73c8c251ecfd57f3f51f845f4f0a4da *man/wordscluster.Rd
 76c4a60071cdf8413c8cec9b39433375 *man/wordsclusterview.Rd
-9e5c622dfe0032fdb18c0d23d86cb92f *man/xmlgene_atomizations.Rd
+ef222818bab055b82455cfcf871a3b4a *man/xmlgene_atomizations.Rd
+15d1b26546ec571145aaec61206bc718 *man/xmlgene_atomizations_new.Rd
 6f84381be9ee2bc4ae05acaa97f9de8a *man/xmlreadabs.Rd
 41463226e00d744544cfadc4606d68b8 *man/xmlword_atomizations.Rd

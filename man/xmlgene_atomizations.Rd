@@ -1,7 +1,7 @@
 \name{xmlgene_atomizations}
 \alias{xmlgene_atomizations}
-\title{Gene atomization of xml abstracts.}
-\description{\code{xmlgene_atomizations} is used to fetch the list of genes from the xml abstracts}
+\title{Gene atomization of xml abstracts.Deprecated.}
+\description{\code{xmlgene_atomizations} is used to fetch the list of genes from the xml abstracts.Deprecated.}
 \usage{
 xmlgene_atomizations(m)
 }
