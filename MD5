@@ -1,4 +1,4 @@
-bd383099eda1bc3adddad698c8f352d3 *DESCRIPTION
+892cb75ca65f27e14a441ad5a08eb29a *DESCRIPTION
 1781aef66a8375c2f012e144f3358caf *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
@@ -40,7 +40,7 @@ f7899ed42dface8ed898eb07e7ae6790 *R/get_original_term2.R
 2f0c33467487e4d4a8d90bb7a6a97e35 *R/input_for_find_intro_conc_html.R
 6187f8fe939e3acebfda7a4592d8d2a6 *R/local_uniprotfun.R
 99cb02e8c9e6c1703870cc5fdbea073a *R/names_fn.R
-fed2cf5c22b0cd30ed598cba4261a2f5 *R/new_xmlreadabs.R
+ea0647f640981fafe2848f3a4ddafe68 *R/new_xmlreadabs.R
 852d5a029d9d1488139330707aded4ef *R/official_fn.R
 a944833320e4869bd17a8dc91a4c0485 *R/pmids_to_abstracts.R
 622b513209f8656e0834144cf8221ede *R/previousabs_fn.R
@@ -70,12 +70,12 @@ b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
 cecb89df7e7a95bcd7e7b0d1dd7e00c3 *R/xmlgene_atomizations_new.R
 4be73f6bb45c242fa50dc2adb9e76703 *R/xmlreadabs.R
 b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
-4a74d2741218e98aa6efdf30a1f6731b *data/GeneToEntrez.rda
-03df5c71c0bfc4e130a8e570fe3f9c8f *data/HGNC2UniprotID.rda
-6dc911c9600f406c82717bb518c771eb *data/HGNCdata.rda
-f41f215d2a4da4322a54934e434118a1 *data/common_words_new.rda
+6ac52ce47cf59d5166d5e3861ac359c9 *data/GeneToEntrez.rda
+5aa76ec3a3b547cd589bbd146ddcf4b4 *data/HGNC2UniprotID.rda
+c15d22c3771ca83f172e4794eb1af35d *data/HGNCdata.rda
+c70386940291eb9f8183a15f2510a1f4 *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
-00d39066be652ae7cee76673315839fc *inst/CITATION
+5b5e7c112c8e7364de6876889a871c4d *inst/CITATION
 52f96bb1ffb560cc89d94c10275d37b0 *man/Abstracts-class.Rd
 a3e92574fe346b27c39401a0fffb29b7 *man/BWI.Rd
 4865b4d6bde72582559614c09aa86a07 *man/Find_conclusion.Rd
