@@ -1,5 +1,5 @@
-892cb75ca65f27e14a441ad5a08eb29a *DESCRIPTION
-1781aef66a8375c2f012e144f3358caf *NAMESPACE
+98a608b0c296e4c27377ef1ee614227e *DESCRIPTION
+fbde6dd2a4a67edb91ff646643e45c68 *NAMESPACE
 dfebd4375b106caf1f1e70fe94a138c9 *R/Abstracts-class.R
 8b18ec5a373405f8f8668f69dd1d07c9 *R/BWI.R
 7bbecbe05edf2dfa1a90f9748161e4d1 *R/Find_conclusion.R
@@ -46,6 +46,7 @@ a944833320e4869bd17a8dc91a4c0485 *R/pmids_to_abstracts.R
 622b513209f8656e0834144cf8221ede *R/previousabs_fn.R
 b10b90b06a1f45d0a08027be1e22cf2d *R/prevsymbol_fn.R
 58f421e3e936f4b2abfc25b39dd37cc9 *R/printabs.R
+de5d69c04c3dae0b41f97dabd9d1d7d7 *R/pubtator3_function.R
 04af019d23d1f8bf9eec25ce4d69b49d *R/pubtator_function.R
 4ea9371b4176f2853cbddc120f35c76a *R/pubtator_function_JSON.R
 2462872f0b296ba76f4f82fa484cb712 *R/pubtator_result_list_to_table.R
@@ -70,10 +71,10 @@ b69ded73a2805792d156d13700ccf4fc *R/xmlgene_atomizations.R
 cecb89df7e7a95bcd7e7b0d1dd7e00c3 *R/xmlgene_atomizations_new.R
 4be73f6bb45c242fa50dc2adb9e76703 *R/xmlreadabs.R
 b644abf8655d71c92d903a0383a96e46 *R/xmlword_atomizations.R
-6ac52ce47cf59d5166d5e3861ac359c9 *data/GeneToEntrez.rda
-5aa76ec3a3b547cd589bbd146ddcf4b4 *data/HGNC2UniprotID.rda
-c15d22c3771ca83f172e4794eb1af35d *data/HGNCdata.rda
-c70386940291eb9f8183a15f2510a1f4 *data/common_words_new.rda
+89c9d65d5f29461b598d7e1656f39776 *data/GeneToEntrez.rda
+4b0c4847e8ba8f2adfad73574a58cec8 *data/HGNC2UniprotID.rda
+3dcfa58be319738c09a644fe804ce948 *data/HGNCdata.rda
+3169f52c2481f544d8880cc3abcb0594 *data/common_words_new.rda
 0d5eccd1f9102545b33c9620d1fce645 *data/datalist
 5b5e7c112c8e7364de6876889a871c4d *inst/CITATION
 52f96bb1ffb560cc89d94c10275d37b0 *man/Abstracts-class.Rd
@@ -132,7 +133,8 @@ d64673b3368f5769dd0b7ad9cc78b0e2 *man/head_abbrev.Rd
 433ef659fe539f8e9d1784e786ead36f *man/previousabs_fn.Rd
 49551a0f773b6eb820f2c559feb0126e *man/prevsymbol_fn.Rd
 17c9f26e08bad972e200ed5814bb3a34 *man/printabs.Rd
-a0dfc79bfe1f22db446a005461f5ae98 *man/pubtator_function.Rd
+3870e9d2511051e962d8441804b739eb *man/pubtator3_function.Rd
+bb4a4f9bb243038c48ea7416cd189788 *man/pubtator_function.Rd
 fa7c8016f2862f27a3e932c44c4f31fc *man/pubtator_function_JSON.Rd
 94f033116268b745d07e74292b6cf07a *man/pubtator_result_list_to_table.Rd
 0b8c3075a73608cc8216cd8861afffbb *man/readabs.Rd

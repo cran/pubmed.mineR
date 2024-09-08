@@ -1,9 +1,20 @@
 Package: pubmed.mineR
 Type: Package
 Title: Text Mining of PubMed Abstracts
-Version: 1.0.20
-Date: 2024-03-09
-Author: Jyoti Rani, S.Ramachandran, Ab Rauf Shah
+Version: 1.0.21
+Date: 2024-09-06
+Authors@R: c(person(given = "Jyoti",
+                      family = "Rani",
+                      role = "aut"),
+               person(family = "S.Ramachandran",
+                      role = "aut"),
+               person(given = c("Ab", "Rauf"),
+                      family = "Shah",
+                      role = "aut"),
+               person(given = "S.",
+                      family = "Ramachandran",
+                      role = "cre",
+                      email = "ramuigib@gmail.com"))
 Maintainer: S. Ramachandran <ramuigib@gmail.com>
 Description: Text mining of PubMed Abstracts (text and XML) from <https://pubmed.ncbi.nlm.nih.gov/>.
 Depends: R (>= 3.5.0), methods
@@ -30,9 +41,15 @@ Collate: 'Abstracts-class.R' 'HGNC-class.R' 'Yearwise.R' 'Genewise.R'
         'space_quasher.R' 'readabsnew.R' 'word_associations.R'
         'get_DOIs.R' 'additional_info.R' 'new_xmlreadabs.R'
         'pubtator_function_JSON.R' 'xmlgene_atomizations_new.R'
-        'co_occurrence_advance.R'
+        'co_occurrence_advance.R' 'pubtator3_function.R'
 License: GPL-3
+LazyLoad: true
+LazyData: true
 NeedsCompilation: no
-Packaged: 2024-03-09 09:52:07 UTC; sramachandran
+Packaged: 2024-09-06 11:29:09 UTC; sramachandran
+Author: Jyoti Rani [aut],
+  S.Ramachandran [aut],
+  Ab Rauf Shah [aut],
+  S. Ramachandran [cre]
 Repository: CRAN
-Date/Publication: 2024-04-08 11:30:02 UTC
+Date/Publication: 2024-09-08 08:00:02 UTC
